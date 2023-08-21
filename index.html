@@ -10,7 +10,12 @@
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
-<body class="bg-black font-poppins">
+<style>
+    body {
+        font-family: 'Poppins', sans-serif;
+    }
+</style>
+<body class="bg-white">
     <div id="container" class="bg-white">
         <div class="uppernav bg-black h-12 text-white text-xs flex items-center justify-center px-4 font-semibold">
             <span class="cursor-pointer">GET A $20 BONUS REWARD</span>
@@ -84,11 +89,50 @@
                                     </button>
             </div>
         </div>
-        <section class="color-theme-black text-center p-0 m-0" style="background-color: rgba(237,237,227); height: 376px;">
-            <div class="col-m-8 col-l-14 offset-m-2 offset-l-5 statement-content">
+        <section class="color-theme-black text-center p-0 m-0" style="background-color: rgba(237, 237, 227); height: 376px;">
+            <div class="col-m-8 col-l-14 offset-m-2 offset-l-5 statement-content flex flex-col justify-center items-center h-full">
                 <h2 class="gl-heading text-2xl font-bold uppercase tracking-wider mt-0 mb-4">YEEZY</h2>
+                <p class="custom-text-base">AVAILABLE ON CONFIRMED. DOWNLOAD, REGISTER, PARTICIPATE</p>
+                <p class="custom-text-base">A PORTION OF THE SALE OF THESE ITEMS WILL BE DONATED IN SUPPORT OF THE FIGHT AGAINST
+                    <div></div>DISCRIMINATION, HATE, RACISM, AND ANTISEMITISM.</p>
+                <div class="custom-link-buttons flex flex-col items-center gap-4">
+                   <div></div><a href="/" class="custom-btn custom-btn-primary underline hover:bg-black hover:text-white">SHOP NOW</a>
+                    <a href="/" class="custom-btn custom-btn-secondary underline hover:bg-black hover:text-white">READ THE PRESS RELEASE</a>
+                </div>
             </div>
         </section>
+        
+        <section class="flex flex-1 justify-center gap-8 px-10 mt-16 h-[400px] w-full bg-white">
+            <div class="custom-item-container flex flex-col justify-center items-center bg-gray-200 p-4 shadow-md">
+                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/3ee5a44f27394c799184caadacf7b5f2_9366/ultraboost-light-running-shoes.jpg"
+                    alt="" class="w-64 h-64 transform scale-110">
+                <div class="pt-4 flex flex-col">
+                    <a href="/" class="text-black hover:bg-black hover:text-white underline transition duration-300">SHOES</a>
+                </div>
+            </div>
+            <div class="custom-item-container flex flex-col justify-center items-center bg-gray-200 p-4 shadow-md">
+                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/21cf274b9b6e446daafdafc801313763_9366/adicolor-classics-trefoil-tee-dress.jpg"
+                    alt="" class="w-64 h-64 transform scale-110">
+                <div class="flex flex-col pt-4">
+                    <a href="/" class="text-black hover:bg-black hover:text-white underline transition duration-300">CLOTHING</a>
+                </div>
+            </div>
+            <div class="custom-item-container flex flex-col justify-center items-center bg-gray-200 p-4 shadow-md">
+                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/4510f6389d484e87b1e4a16e1a53cbef_9366/gazelle-shoes.jpg"
+                    alt="" class="w-64 h-64 transform scale-110">
+                <div class="flex flex-col pt-4">
+                    <a href="/" class="text-black hover:bg-black hover:text-white underline transition duration-300">BEST SELLERS</a>
+                </div>
+            </div>
+            <div class="custom-item-container flex flex-col justify-center items-center bg-gray-200 p-4 shadow-md">
+                <img src="https://assets.adidas.com/images/w_280,h_280,f_auto,q_auto:sensitive/d005317e984148d392bdb73ccccd96b3_9366/ultraboost-1.0-shoes.jpg"
+                    alt="" class="w-64 h-64 transform scale-110">
+                <div class="flex flex-col pt-4">
+                    <a href="/" class="text-black hover:bg-black hover:text-white underline transition duration-300">NEW ARRIVALS</a>
+                </div>
+            </div>
+        </section>
+        
     </div>
 </body>
 </html>
